@@ -23,7 +23,6 @@ addNumberBTN.addEventListener("click", function (event) {
 sortAllBTN.addEventListener("click", function (event) {
     event.preventDefault();
     const finder = numbers.forEach((number) => {
-
         if (number % 2 == 1) {
             odds.push(number)
             oddsOutput.textContent = odds.join(" , ");
